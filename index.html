@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>.html — Soporte</title>
+<style>
+  :root {
+    --canvas: #F2F1EF;
+    --card: #FFFFFF;
+    --ink: #16171A;
+    --secondary: #6B6E74;
+    --hairline: rgba(60, 60, 67, 0.12);
+    --accent: #2C3036;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --canvas: #131416;
+      --card: #1D1F22;
+      --ink: #F2F1EF;
+      --secondary: #A0A2A7;
+      --hairline: rgba(255, 255, 255, 0.12);
+      --accent: #D8D9DC;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 80px;
+    background: var(--canvas);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--card);
+    border: 0.5px solid var(--hairline);
+    border-radius: 14px;
+    padding: 40px 32px;
+  }
+  h1 { font-size: 34px; letter-spacing: -0.03em; margin: 0 0 6px; }
+  .tagline { color: var(--secondary); margin: 0 0 32px; }
+  h2 { font-size: 19px; letter-spacing: -0.01em; margin: 32px 0 8px; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  footer { max-width: 680px; margin: 20px auto 0; color: var(--secondary); font-size: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>.html</h1>
+  <p class="tagline">Guarda y abre tus archivos HTML en el iPhone.</p>
+
+  <h2>Soporte</h2>
+  <p>Para dudas, fallos o sugerencias, escribe a
+  <a href="mailto:llongueira@gmail.com">llongueira@gmail.com</a>.
+  Respondemos a todos los correos.</p>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <p><strong>¿Cómo añado un documento?</strong><br>
+  Con el botón + de la pantalla principal, que abre la app Archivos filtrada a
+  archivos HTML. También desde «Abrir con» en Archivos o Safari.</p>
+
+  <p><strong>¿Necesita conexión a Internet?</strong><br>
+  No. Cada documento se guarda dentro de la app y se abre sin conexión. La
+  aplicación no se conecta a ningún servidor.</p>
+
+  <p><strong>¿Se guarda lo que hago dentro de un documento?</strong><br>
+  Sí. Si marcas casillas, rellenas un formulario o cambias de pestaña dentro de un
+  documento, ese estado se conserva al cerrar la app. Cada documento guarda el suyo
+  por separado.</p>
+
+  <p><strong>¿Puedo editar el HTML?</strong><br>
+  No. <strong>.html</strong> es un visor, no un editor.</p>
+
+  <p><strong>¿Cómo borro un documento?</strong><br>
+  Manteniendo pulsada su fila en la lista, o desde el propio visor. Al borrarlo se
+  elimina también el estado que hubiera guardado.</p>
+
+  <h2>Privacidad</h2>
+  <p>La app no recoge ningún dato. Puedes leer la
+  <a href="./privacy.html">política de privacidad</a> completa.</p>
+</main>
+<footer>LightSide Studio</footer>
+</body>
+</html>
